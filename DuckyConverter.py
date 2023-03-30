@@ -1,5 +1,4 @@
 from DuckyTemplates import DuckyTemplates
-import os
 
 class DuckyConverter:
     
