@@ -1,6 +1,0 @@
-GUI r
-DELAY 120
-STRINGLN cmd
-DELAY 120
-STRINGLN echo "You've been PWN'd"
-DELAY 120
