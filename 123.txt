@@ -1,5 +1,0 @@
-echo "You've been PWN'd"
-1
-2
-3
-//winrun//
