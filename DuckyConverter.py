@@ -11,11 +11,13 @@ class DuckyConverter:
         self._outname = outputfilemane
 
     def StringFromFileGenerator(self):
+        '''File reader generator'''
         print("Reading file...")
         for i in open(self._filePath, 'r'):
             yield i
 
     def ComposeFile(self):
+        '''Composing output file from input entry and replacement templates'''
         _strings = []
         for i in self.StringFromFileGenerator():
             j=i.strip()
@@ -27,6 +29,7 @@ class DuckyConverter:
                 _strings.append(f'DELAY {str(self._delay)}\n')
         print('Processing things, please wait...')
 
+        '''Remove last delay'''
         _strings.pop()
         
         with open(self._outname, 'w') as file:

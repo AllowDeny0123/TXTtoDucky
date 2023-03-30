@@ -2,6 +2,7 @@ import sys
 from DuckyConverter import DuckyConverter
 
 def main():
+    '''CLI arguments handler'''
     if len(sys.argv) > 2:
         print('Prepairing for work...')
         a = DuckyConverter(
