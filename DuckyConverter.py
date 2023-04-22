@@ -25,7 +25,8 @@ class DuckyConverter:
                 _strings.append(f'{DuckyTemplates.TEMPLATES[j]}\n')
                 _strings.append(f'DELAY {str(self._delay)}\n')
             else:
-                _strings.append(f'STRINGLN {j}\n')
+                _strings.append(f'ALTSTRING {j}\n')
+                _strings.append('ENTER\n')
                 _strings.append(f'DELAY {str(self._delay)}\n')
         print('Processing things, please wait...')
 
