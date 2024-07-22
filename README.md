@@ -24,4 +24,3 @@ Output:
 
 ## Existing templates
  `//winrun// : GUI r`
-...
