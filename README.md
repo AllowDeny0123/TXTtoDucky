@@ -2,7 +2,9 @@
 ## Description
 ### Converts simple strings to DuckyScript keyboard events
 ## Usage
-`python main.py -i *input filename* -d *delay* -o *output filename*`
+```
+python main.py -i *input filename* -d *delay* -o *output filename*
+```
 - Input filename: necessary
 - Delay: optional, default 100ms
 - Output filename: optional, default "output.txt"
