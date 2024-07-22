@@ -1,6 +1,6 @@
 # TXTtoDucky
 ## Description
-### Converts simple strings to DuckyScript keyboard events
+Converts simple strings to DuckyScript keyboard events
 ## Usage
 ```
 python main.py -i *input filename* -d *delay* -o *output filename*
